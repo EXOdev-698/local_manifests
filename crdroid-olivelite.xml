@@ -13,7 +13,7 @@
 
     <!-- Device repos -->
     <project path="device/xiaomi/olivelite" name="android_device_xiaomi_olives-8A" remote="EXOdev-698" revision="crdroid" clone-depth="1" />
-    <project path="device/xiaomi/sdm439-common" name="android_evice_xiaomi_sdm439-common" remote="mi-sdm439" revision="lineage-18.1" clone-depth="1" />
+    <project path="device/xiaomi/sdm439-common" name="android_device_xiaomi_sdm439-common" remote="mi-sdm439" revision="lineage-18.1" clone-depth="1" />
     <project path="vendor/xiaomi/olivelite" name="proprietary_vendor_xiaomi_olives-8A" remote="EXOdev-698" revision="lineage-18.1" clone-depth="1" />
     <project path="vendor/xiaomi/sdm439-common" name="proprietary_vendor_xiaomi_sdm439-common" remote="mi-sdm439" revision="lineage-18.1" clone-depth="1" />
     <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="sdm439-devs" revision="a11/main-kud-rb" clone-depth="1" />
