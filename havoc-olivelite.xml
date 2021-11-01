@@ -22,8 +22,4 @@
     <remove-project name="android_hardware_qcom_display" />
     <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="mi-sdm439" revision="lineage-18.1-caf-msm8996" clone-depth="1" />
 
-    <!-- Extra -->
-    <remove-project name="LineageOS/android_packages_apps_FMRadio" />
-    <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1" clone-depth="1" />
-
 </manifest>
