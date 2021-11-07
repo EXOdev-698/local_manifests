@@ -4,12 +4,13 @@
     <!-- Remotes -->
     <remote name="EXOdev-698"
             fetch="https://github.com/EXOdev-698" />
-    <remote name="mi-sdm439"
-            fetch="https://github.com/mi-sdm439" />
+    <remote name="hsx02"
+            fetch="https://github.com/hsx02/" />
     <remote name="sdm439-devs"
             fetch="https://github.com/xiaomi-sdm439-devs" />
     <remote name="Chuck"
             fetch="https://github.com/ChuckProjekt" />
+    
 
     <!-- Device repos -->
     <project path="device/xiaomi/olives" name="device_xiaomi_olives_S" remote="EXOdev-698" revision="AndroidS" clone-depth="1" />
@@ -25,4 +26,6 @@
     <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="Chuck" revision="8.6.2" clone-depth="1" />
     <remove-project name="platform_hardware_qcom_display" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2" clone-depth="1" />
+    <remove-project name="packages_resources_devicesettings" />
+    <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx02" revision="lineage-18.1" clone-depth="1" />
 </manifest>
