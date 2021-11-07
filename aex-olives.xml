@@ -5,7 +5,7 @@
     <remote name="EXOdev-698"
             fetch="https://github.com/EXOdev-698" />
     <remote name="hsx02"
-            fetch="https://github.com/hsx02/" />
+            fetch="https://github.com/hsx02" />
     <remote name="sdm439-devs"
             fetch="https://github.com/xiaomi-sdm439-devs" />
     <remote name="Chuck"
