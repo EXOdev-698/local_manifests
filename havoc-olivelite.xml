@@ -8,8 +8,8 @@
             fetch="https://github.com/mi-sdm439" />
     <remote name="sdm439-devs"
             fetch="https://github.com/xiaomi-sdm439-devs" />
-    <remote name="LineageOS"
-            fetch="https://github.com/LineageOS" />
+    <remote name="ChuckProjekt"
+            fetch="https://github.com/ChuckProjekt" />
 
     <!-- Device repos -->
     <project path="device/xiaomi/olives" name="device_xiaomi_olives_S" remote="EXOdev-698" revision="AndroidS" clone-depth="1" />
