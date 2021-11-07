@@ -28,5 +28,4 @@
     <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="Chuck" revision="8.6.2" clone-depth="1" />
     <remove-project name="platform_hardware_qcom_display" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2" clone-depth="1" />
-    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-18.1" clone-depth="1" />
 </manifest>
