@@ -4,10 +4,6 @@
     <!-- Remotes -->
     <remote name="JonnyRoller23"
             fetch="https://github.com/JonnyRoller23" />
-    <remote name="LineageOS"
-            fetch="https://github.com/LineageOS" />
-    <remote name="deadlylxrd-project"
-            fetch="https://github.com/deadlylxrd-project" />
     <remote name="Chuck"
             fetch="https://github.com/ChuckProjekt" />
     <remote name="sdm439-devs"
