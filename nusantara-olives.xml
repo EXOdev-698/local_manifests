@@ -8,6 +8,8 @@
             fetch="https://github.com/ChuckProjekt" />
     <remote name="sdm439-devs"
             fetch="https://github.com/xiaomi-sdm439-devs" />
+    <remote name="NusantaraProject-ROM"
+            fetch="https://github.com/NusantaraProject-ROM" />
     
     <!-- Device repos -->
     <project path="device/xiaomi/olives" name="device_xiaomi_olives_S" remote="JonnyRoller23" revision="AndroidS" clone-depth="1" />
@@ -24,5 +26,5 @@
     <remove-project name="android_hardware_qcom_display" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2" clone-depth="1" />
     <remove-project name="android_device_qcom_sepolicy-legacy-um" />
-    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="JonnyRoller23" revision="twelve" clone-depth="1" /> 
+    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="NusantaraProject-ROM" revision="12" clone-depth="1" /> 
 </manifest>
