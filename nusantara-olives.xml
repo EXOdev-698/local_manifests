@@ -23,6 +23,6 @@
     <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="Chuck" revision="8.6.2" clone-depth="1" />
     <remove-project name="android_hardware_qcom_display" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2" clone-depth="1" />
-    <remove-project name="device_qcom_sepolicy-legacy-um" />
+    <remove-project name="android_device_qcom_sepolicy-legacy-um" />
     <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="JonnyRoller23" revision="twelve" clone-depth="1" /> 
 </manifest>
