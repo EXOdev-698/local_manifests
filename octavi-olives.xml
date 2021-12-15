@@ -19,8 +19,11 @@
     <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="sdm439-devs" revision="a12/main" clone-depth="1" />
 
     <!-- Patches -->
+    <remove-project name="hardware_qcom-caf_msm8996_audio" />
     <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" remote="Chuck" revision="8.6.2" clone-depth="1" />
+    <remove-project name="hardware_qcom-caf_msm8996_media" />
     <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="Chuck" revision="8.6.2" clone-depth="1" />
+    <remove-project name="hardware_qcom-caf_msm8996_display" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2" clone-depth="1" />
     <remove-project name="platform_device_qcom_sepolicy-legacy-um" />
     <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="JonnyRoller23" revision="twelve" clone-depth="1" /> 
