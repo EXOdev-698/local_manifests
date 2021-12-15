@@ -20,5 +20,5 @@
 
     <!-- Patches -->
     <remove-project name="platform_device_qcom_sepolicy-legacy-um" />
-    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="JonnyRoller23" revision="twelve" clone-depth="1" /> 
+    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="JonnyRoller23" revision="twelve" clone-depth="1" /> 
 </manifest>
