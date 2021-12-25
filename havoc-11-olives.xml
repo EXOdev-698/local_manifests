@@ -8,6 +8,9 @@
             fetch="https://github.com/mi-sdm439" />
     <remote name="IAmDeadlylxrd"
             fetch="https://github.com/IAmDeadlylxrd" />
+    <remote name="all"
+          fetch="https://github.com/"
+          clone-depth="1" />
 
     <!-- Device repos -->
     <project path="device/xiaomi/olives" name="device_xiaomi_olives_R" remote="JonnyRoller23" revision="HavocOS-11" clone-depth="1" />
@@ -17,12 +20,8 @@
     <project path="kernel/xiaomi/sdm439" name="kernel-olive" remote="IAmDeadlylxrd" revision="11" clone-depth="1" />
 
     <!-- Patches -->
-    <remove-project name="android_hardware_qcom_audio" />
-    <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" remote="Chuck" revision="8.6.2" clone-depth="1" />
-    <remove-project name="android_hardware_qcom_media" />
-    <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="Chuck" revision="8.6.2" clone-depth="1" />
     <remove-project name="android_hardware_qcom_display" />
-    <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" remote="Chuck" revision="8.6.2" clone-depth="1" />
+    <project path="hardware/qcom-caf/msm8996/display" name="mi-sdm439/android_hardware_qcom_display" remote="all" revision="lineage-18.1-caf-msm8996"/>
 
     <!-- Extra -->
     <remove-project name="LineageOS/android_packages_apps_FMRadio" />
