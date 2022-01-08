@@ -24,7 +24,7 @@
 
     <!-- Patches -->
     <remove-project name="LineageOS/android_hardware_qcom_display" />
-    <project path="hardware/qcom-caf/msm8996/display" name="mi-sdm439/android_hardware_qcom_display" remote="all" revision="lineage-18.1-caf-msm8996"/>
+    <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="mi-sdm439" revision="lineage-18.1-caf-msm8996"/>
 
     <!-- Extra -->
     <remove-project name="LineageOS/android_packages_apps_FMRadio" />
