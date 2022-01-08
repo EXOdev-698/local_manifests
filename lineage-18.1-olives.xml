@@ -9,8 +9,8 @@
             fetch="https://github.com/JonnyRoller23" />
     <remote name="mi-sdm439"
             fetch="https://github.com/mi-sdm439" />
-    <remote name="IAmDeadlylxrd"
-            fetch="https://github.com/IAmDeadlylxrd" />
+    <remote name="LineageOS"
+            fetch="https://github.com/LineageOS" />
     <remote name="all"
           fetch="https://github.com/"
           clone-depth="1" />
@@ -27,6 +27,10 @@
     <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="mi-sdm439" revision="lineage-18.1-caf-msm8996"/>
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
     <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="mi-sdm439" revision="lineage-18.1-caf-msm8996"/>
+    <remove-project name="LineageOS/android_hardware_qcom_media" />
+    <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="LineageOS" revision="lineage-18.1-caf-msm8996"/>
+    <remove-project name="LineageOS/android_packages_apps_Recorder" />
+    <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="LineageOS" revision="lineage-18.1"/>
     
     <!-- Extra -->
     <remove-project name="LineageOS/android_packages_apps_FMRadio" />
